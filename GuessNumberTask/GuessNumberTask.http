@@ -1,0 +1,6 @@
+@GuessNumberTask_HostAddress = http://localhost:5135
+
+GET {{GuessNumberTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
