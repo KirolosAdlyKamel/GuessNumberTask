@@ -1,0 +1,6 @@
+ <nav style="display:flex; gap:10px; padding:10px; background:#007bff; color:white; justify-content:center; align-items:center;">
+  @if(!auth.isLoggedIn()){<a style="color:white;" routerLink="/login">Login</a>}
+  @if(!auth.isLoggedIn()){<a style="color:white;" routerLink="/register">Register</a>}
+  @if(auth.isLoggedIn()){<a style="color:white;" routerLink="/game">Game</a>}
+  @if(auth.isLoggedIn()){<button (click)="logout()">Logout</button>}
+</nav>

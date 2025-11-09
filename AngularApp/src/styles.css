@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #222;
+}
+
+input, button {
+  padding: 8px 12px;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  padding: 12px;
+  background-color: #eee;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  background-color: #dc3545;
+}
+
+nav button:hover {
+  background-color: #a71d2a;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+}
